@@ -1,0 +1,30 @@
+{
+  "name": "toumetis-weather-forecast",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^0.34.0",
+    "highcharts": "^6.0.7",
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-typeahead": "^2.5.1",
+    "react-dom": "^16.2.0",
+    "react-highcharts": "^16.0.2",
+    "react-scripts": "1.1.1",
+    "sfcookies": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.2",
+    "jest-cli": "^22.4.2",
+    "react-test-renderer": "^16.2.0"
+  }
+}

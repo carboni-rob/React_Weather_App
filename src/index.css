@@ -1,0 +1,10 @@
+body {
+  background-color: '#f9f9f9';
+  text-align: center;
+  padding: 0% 5% 2% 5%;
+}
+
+.card {
+  padding: 20 !important;
+  margin-top: 30 !important;
+}
