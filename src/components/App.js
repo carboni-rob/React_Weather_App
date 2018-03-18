@@ -16,16 +16,16 @@ import { bake_cookie, read_cookie } from 'sfcookies';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { Card } from 'material-ui/Card';
 
-import marker from '../img/marker.png';
+import marker from '../img/marker2.png';
 
 const cookie_key = 'LOCATION';
 
 const MARKER_STYLE = {
   position: 'absolute',
-  width: 30,
+  width: 50,
   height: 50,
-  left: -13,
-  top: -46
+  left: -23,
+  top: -45
 };
 
 const Marker = () => <img src={marker} alt="" style={MARKER_STYLE} />;
@@ -55,9 +55,11 @@ class App extends Component {
 
   componentDidMount() {
     var location = read_cookie(cookie_key);
-    this.setState({ location }, () => {
-      this.onSubmit();
-    });
+    if (location.length !== 0) {
+      this.setState({ location }, () => {
+        this.onSubmit();
+      });
+    }
   }
 
   handleErrors(response) {
@@ -316,19 +318,16 @@ class App extends Component {
                   validationState={this.state.validationState}>
                   <AsyncTypeahead
                     ref={typeahead => (this.typeahead = typeahead)}
+                    minLength={2}
                     isLoading={this.state.isQueryLoading}
                     options={this.state.locationsArray}
                     placeholder="Enter location"
-                    value={this.state.location}
-                    onChange={query => {
-                      this.populateAutocomplete(query);
+                    onInputChange={query => {
                       this.setState({ location: query });
-                      this.typeahead.getInstance().blur();
-                      this.onSubmit();
+                      this.populateAutocomplete(query);
                     }}
-                    onSearch={query => {
-                      this.setState({ location: query });
-                      this.populateAutocomplete(query);
+                    onSearch={e => {
+                      return null;
                     }}
                     onKeyDown={event => {
                       if (event.key === 'Enter') {
