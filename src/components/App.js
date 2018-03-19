@@ -188,7 +188,7 @@ class App extends Component {
 
   errorMessage() {
     if (this.state.validationState === 'error') {
-      return <h4>Location not found</h4>;
+      return <h4 className="errMsg">Location not found</h4>;
     }
   }
 
@@ -209,7 +209,7 @@ class App extends Component {
   renderMap() {
     if (this.state.dataLoaded === true) {
       return (
-        <Card style={styles.cardStyle}>
+        <Card className="mapCard" style={styles.cardStyle}>
           <h3>Last Location:</h3>
           <div
             style={{
@@ -270,7 +270,7 @@ class App extends Component {
     };
     if (this.state.dataLoaded === true) {
       return (
-        <Card style={styles.cardStyle}>
+        <Card className="chartCard" style={styles.cardStyle}>
           <h3>Six Day Forecast</h3>
           <ReactHighcharts config={chartConfig} />
         </Card>
@@ -319,7 +319,7 @@ class App extends Component {
                     onInputChange={query => {
                       this.setState({
                         location: query,
-                        validationState: 'neutral'
+                        validationState: null
                       });
                       this.populateAutocomplete(query);
                     }}
