@@ -18,17 +18,11 @@ import { Card } from 'material-ui/Card';
 
 import marker from '../img/marker2.png';
 
+import styles from './styles';
+
 const cookie_key = 'LOCATION';
 
-const MARKER_STYLE = {
-  position: 'absolute',
-  width: 50,
-  height: 50,
-  left: -23,
-  top: -45
-};
-
-const Marker = () => <img src={marker} alt="" style={MARKER_STYLE} />;
+const Marker = () => <img src={marker} alt="" style={styles.MARKER_STYLE} />;
 
 class App extends Component {
   constructor() {
@@ -323,7 +317,10 @@ class App extends Component {
                     options={this.state.locationsArray}
                     placeholder="Enter location"
                     onInputChange={query => {
-                      this.setState({ location: query });
+                      this.setState({
+                        location: query,
+                        validationState: 'neutral'
+                      });
                       this.populateAutocomplete(query);
                     }}
                     onSearch={e => {
@@ -378,12 +375,5 @@ class App extends Component {
     );
   }
 }
-
-const styles = {
-  cardStyle: {
-    padding: 20,
-    marginTop: 30
-  }
-};
 
 export default App;

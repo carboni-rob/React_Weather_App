@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches the snapshot 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "marginTop": 30,
+          "muiPrepared": true,
+          "padding": 20,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <h2
+          style={
+            Object {
+              "margin": 10,
+            }
+          }
+        >
+          Weather Dashboard
+        </h2>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 2,
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "Roboto, sans-serif",
+          "marginTop": 30,
+          "muiPrepared": true,
+          "padding": 20,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <form
+          className=""
+        >
+          <div
+            className="form-group has-feedback"
+          >
+            <div
+              className="rbt open clearfix"
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+              tabIndex={-1}
+            >
+              <div
+                className="rbt-input form-control"
+                disabled={false}
+                onClick={[Function]}
+                onFocus={[Function]}
+                tabIndex={-1}
+              >
+                <div
+                  className="rbt-input-wrapper"
+                >
+                  <div
+                    style={
+                      Object {
+                        "display": "block",
+                        "position": "relative",
+                      }
+                    }
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-expanded={false}
+                      aria-haspopup="true"
+                      autoComplete="off"
+                      className="rbt-input-main"
+                      disabled={false}
+                      name={undefined}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder="Enter location"
+                      role="combobox"
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "border": 0,
+                          "boxShadow": "none",
+                          "cursor": "inherit",
+                          "outline": "none",
+                          "padding": 0,
+                          "width": "100%",
+                        }
+                      }
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      className={undefined}
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "display": "block",
+                          "pointerEvents": "none",
+                          "position": "absolute",
+                          "top": 0,
+                          "zIndex": 0,
+                        }
+                      }
+                    >
+                      <input
+                        aria-hidden={true}
+                        className="rbt-input-hint"
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "border": 0,
+                            "boxShadow": "none",
+                            "boxSizing": "content-box",
+                            "color": "rgba(0, 0, 0, 0.35)",
+                            "cursor": "inherit",
+                            "outline": "none",
+                            "padding": 0,
+                            "width": "1px",
+                          }
+                        }
+                        tabIndex={-1}
+                        value=""
+                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 0,
+                            "left": 0,
+                            "overflow": "scroll",
+                            "position": "absolute",
+                            "top": 0,
+                            "visibility": "hidden",
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-atomic={true}
+                aria-live="polite"
+                className="sr-only rbt-sr-status"
+                role="status"
+              >
+                0 selections
+              </div>
+            </div>
+          </div>
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <div
+      className="show-grid row"
+    >
+      <div
+        className="col-md-4 col-xs-12"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+              "backgroundColor": "#ffffff",
+              "borderRadius": 2,
+              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+              "boxSizing": "border-box",
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "Roboto, sans-serif",
+              "marginTop": 30,
+              "muiPrepared": true,
+              "padding": 20,
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "paddingBottom": 0,
+              }
+            }
+          >
+            <h3>
+              Current Temp
+            </h3>
+            <h4>
+              no data
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4 col-xs-12"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+              "backgroundColor": "#ffffff",
+              "borderRadius": 2,
+              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+              "boxSizing": "border-box",
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "Roboto, sans-serif",
+              "marginTop": 30,
+              "muiPrepared": true,
+              "padding": 20,
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "paddingBottom": 0,
+              }
+            }
+          >
+            <h3>
+              Current Weather
+            </h3>
+            <h4>
+              no data
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4 col-xs-12"
+      >
+        <div
+          style={
+            Object {
+              "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+              "backgroundColor": "#ffffff",
+              "borderRadius": 2,
+              "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+              "boxSizing": "border-box",
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "Roboto, sans-serif",
+              "marginTop": 30,
+              "muiPrepared": true,
+              "padding": 20,
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "zIndex": 1,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "paddingBottom": 0,
+              }
+            }
+          >
+            <h3>
+              Sundown
+            </h3>
+            <h4>
+              no data
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="show-grid row"
+    >
+      <div
+        className="col-md-4 col-xs-12"
+      />
+      <div
+        className="col-md-12 col-xs-12"
+      >
+        <div
+          className="col-md-4 col-xs-12"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
